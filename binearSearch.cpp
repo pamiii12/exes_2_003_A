@@ -43,8 +43,9 @@ void binearSearch()
 	if (lowerBound <= upperBound)
 	{
 		mid = lowerBound + upperBound / 2;  
+		cout << "Not Found" << endl;
 	}
-	else cout << "Not Found" << endl;
+	
 	
 }
 
